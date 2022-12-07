@@ -1,0 +1,30 @@
+{
+  "name": "kivibot-plugin-picture",
+  "version": "2.3.0",
+  "description": "来张图",
+  "main": "lib/index.js",
+  "author": "Lisk",
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "kivibot",
+    "kivibot-plugin"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@kivibot/core": "^0.2.2",
+    "ava": "^5.1.0",
+    "axios": "^1.2.0",
+    "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "nanoid": "^3"
+  },
+  "scripts": {
+    "dev": "tsc -w",
+    "build": "tsc",
+    "test": "ava",
+    "release": "tsc && pnpm publish"
+  }
+}
